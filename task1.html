@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="task1style.css">
+</head>
+
+<body>
+  <div class="gallery">
+
+    <div class="gallery-container">
+      <img id="current-image" src="image1.jpg" alt="Gallery Image">
+      <p id="caption">Image 1</p>
+      <button id="fullscreen-btn">View Fullscreen</button>
+    </div>    
+    
+    <div class="thumbnails">
+      <img src="image1.jpg" alt="Thumbnail 1" onclick="changeImage('image1.jpg')">
+      <img src="image2.png" alt="Thumbnail 2" onclick="changeImage('image2.png')">
+      <img src="image3.avif" alt="Thumbnail 3" onclick="changeImage('image3.avif')">
+      <img src="big one.jpg" alt="Thumbnail 4" onclick="changeImage('big one.jpg')">
+    </div>
+  
+  </div>
+  <script src="task1J.js"></script>
+</body>
+</html>
+
